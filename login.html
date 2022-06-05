@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <style>
+          body{
+            background: #715fbc
+        }
+        .container{
+            width: 440px;
+            margin: auto;
+            margin-top: 100px;
+            background: white;
+            border-radius: 22px;
+          }
+          .container>h1{
+            text-align: center;
+            margin-bottom: -22px;
+            padding: 40px;
+          }
+          .container>form{
+            padding: 50px;
+          }
+          form>.user{
+            position: relative;
+            border-bottom: 1px solid #4e80ce ;
+            margin: 30px 0;
+            margin-top: 22px;
+          }
+          .user>input{
+            width: 100%;
+            padding:5px;
+            height: 43px;
+            font-size: 16px;
+            border: none;
+            background: none;
+          }
+          .user>label{
+            position: absolute;
+            top: 50%;
+            color: #adadad;
+            font-size: 16px;
+          }
+          .password2{
+            margin-bottom: 30px;
+            color: #a6a6a6;
+          }
+          #passowrd_section{
+            width: 100%;
+            height: 60px;
+            border: 1px solid;
+            background: #4e80ce;
+            font-size: 18px;
+            color: white;
+            font-weight: bolder;
+          }
+          .signup{
+            margin: 30px;
+            text-align: center;
+            font-size: 16px;
+            color: gray;
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form method="post">
+          <div class="user">
+            <input type="text" required>
+            <span></span>
+            <label>Username</label>
+          </div>
+          <div class="user">
+            <input type="password" required>
+            <span></span>
+            <label>Password</label>
+          </div>
+          <input id="passowrd_section" type="submit" value="Login">
+          <div class="signup">
+            <div class="password2">Forgot <a href="#">Password?</a></div>
+            Don't have an Account? 
+            <a href="#">Sign up</a>
+          </div>
+        </form>
+      </div>
+  
+</body>
+</html>
