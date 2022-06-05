@@ -29,6 +29,7 @@
             border-bottom: 1px solid #4e80ce ;
             margin: 30px 0;
             margin-top: 22px;
+            outline: none;
           }
           .user>input{
             width: 100%;
@@ -37,6 +38,7 @@
             font-size: 16px;
             border: none;
             background: none;
+            outline: none;
           }
           .user>label{
             position: absolute;
@@ -70,14 +72,13 @@
         <h1>Login</h1>
         <form method="post">
           <div class="user">
-            <input type="text" required>
-            <span></span>
-            <label>Username</label>
+            <input type="text" placeholder="Username">
+            <label></label>
           </div>
           <div class="user">
-            <input type="password" required>
+            <input type="password" placeholder="Password">
             <span></span>
-            <label>Password</label>
+            <label></label>
           </div>
           <input id="passowrd_section" type="submit" value="Login">
           <div class="signup">
