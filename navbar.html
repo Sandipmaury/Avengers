@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navbar</title>
     <style>
-        #navbar{
-           width: 100%;
-           height: 80px;
-           display: flex;
-           justify-content: space-between;
-           align-items: center;
-           border-radius: 15px; 
+        #navbar {
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 15px;
             background-color: #1b2837;
         }
-        #navbar>div:first-child{
-          width:10%;
-          font-size: 30px;
-          margin-left: 30px;
-          text-align: center;
-          color: white; 
+
+        #navbar>div:first-child {
+            width: 10%;
+            font-size: 30px;
+            margin-left: 30px;
+            text-align: center;
+            color: white;
         }
-        #navbar>div:last-child{
+
+        #navbar>div:last-child {
             display: flex;
             width: 40%;
             color: white;
             font-size: 20px;
         }
-        div>p{
+
+        div>p {
             margin-left: 80px;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
         }
     </style>
 </head>
+
 <body>
     <div id="navbar">
         <div>Reebok</div>
         <div>
-            <P>Men</P>
+            <P><a href="mens.html">Men</a></P>
             <p>Women</p>
-            <p>Login</p>
-            <p>signup</p>
+            <p><a href="login.html">Login</a></p>
+            <p><a href="signuppage.html">signup</a></p>
         </div>
     </div>
 </body>
+
 </html>
